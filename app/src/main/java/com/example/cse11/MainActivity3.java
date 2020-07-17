@@ -37,9 +37,9 @@ public class MainActivity3 extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        dhan3();
+        advanceCalcu();
     }
-    public void dhan3(){
+    public void advanceCalcu(){
         text = findViewById(R.id.text);
         b1 = findViewById(R.id.B1);
         b2 = findViewById(R.id.B2);

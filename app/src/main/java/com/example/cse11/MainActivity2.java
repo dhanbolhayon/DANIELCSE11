@@ -40,9 +40,9 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        dhan2();
+        simpleCalcu();
     }
-    public void dhan2(){
+    public void simpleCalcu(){
         text = findViewById(R.id.text);
         b1 = findViewById(R.id.B1);
         b2 = findViewById(R.id.B2);
